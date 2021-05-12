@@ -1,0 +1,19 @@
+li.first-block {
+    list-style-type: none;
+}
+
+li, .first-block {
+    list-style-type: none;
+}
+
+li .first-block {
+    list-style-type: none;
+}
+
+.first-block li  {
+    list-style-type: none;
+}
+
+ul:first-child{
+
+}
