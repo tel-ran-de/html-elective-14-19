@@ -1,0 +1,21 @@
+*{
+    margin: 0 auto;
+    color: rgb(4, 102, 105);
+}
+ul:circle{
+    list-style: circle;
+}
+ul:rect{
+    list-style: square;
+}
+.content{
+    margin: 40px 30%;
+}
+a{
+    text-decoration: wavy;
+    color: blueviolet;
+}
+a:hover{
+    color: brown;
+    text-decoration:double;
+}

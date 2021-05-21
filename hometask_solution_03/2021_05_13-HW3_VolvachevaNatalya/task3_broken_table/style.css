@@ -1,0 +1,19 @@
+table {
+    border: 2px solid black;
+    padding: 0;
+    border-spacing: 0;
+}
+tr,td {
+    border: 1px solid black;
+}
+
+/*style below come from the task but doesn't work as we don't have cells height'*!*/
+.first_row > td {
+    vertical-align: top;
+}
+.second_row > td:nth-child(1) {
+    vertical-align: bottom;
+}
+second_row > td:nth-child(2) {
+    vertical-align: top;
+}

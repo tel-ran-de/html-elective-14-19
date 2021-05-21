@@ -1,0 +1,13 @@
+.one li {
+
+    list-style-type: upper-roman;
+}
+.new1 li{
+    list-style-type: disc;
+}
+.new2 li{
+    list-style-type: disc;
+}
+.new3 li{
+    list-style-type: disc;
+}

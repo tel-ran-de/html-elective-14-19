@@ -1,0 +1,17 @@
+p {
+    text-align: justify;
+
+}
+
+p:target {
+    color: gray;
+}
+
+ol {
+    list-style-type: upper-roman;
+
+}
+
+ul {
+    list-style-type: disc;
+}

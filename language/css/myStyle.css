@@ -1,0 +1,37 @@
+p::before {
+    content: "";
+    padding-left: 25px;
+}
+
+
+p:lang(by) {
+    background: url("../img-flag/byr.png") no-repeat;
+}
+
+p:lang(ru) {
+    background: url("../img-flag/rub.png") no-repeat;
+}
+
+p:lang(en-GB) {
+    background: url("www.yandex.ru/usd.png") no-repeat;
+}
+
+p:lang(pl) {
+    background: url("../img-flag/pln.png") no-repeat;
+}
+
+p:lang(de) {
+    background-color: gold;
+
+}
+
+a[href="https://www.tel-ran.de"]{
+    background: #34c7cc;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    line-height: 50px;
+    font-size: 25px;
+}
+
+

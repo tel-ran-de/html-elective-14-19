@@ -1,0 +1,9 @@
+table, th, tr, td {
+    border: 1px solid black;
+}
+caption {
+    text-align: center;
+}
+.aligned {
+    text-align: center;
+}

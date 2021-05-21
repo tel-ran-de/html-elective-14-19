@@ -1,0 +1,25 @@
+table{
+    border: 1px solid black;
+    border-spacing: 2px;
+}
+tr{
+
+    border: 1px solid black;
+}
+td{
+    width: 100px;
+    border: 1px solid black;
+
+}
+.div1{
+    width: 400px;
+    text-align: center;
+}
+.first td{
+    text-align: center;
+    font-weight: bold;
+
+}
+.second {
+    text-align: center;
+}

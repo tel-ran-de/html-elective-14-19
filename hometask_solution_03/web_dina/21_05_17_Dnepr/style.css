@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@500&family=Montserrat&family=Nunito:ital,wght@0,300;1,900&display=swap');
+
+* {
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-image: url("./img/football-1-1.jpeg");
+    background-size: cover;
+    max-width: 1490px;
+    min-width: 1054px;
+    height: auto;
+    width: 100%;
+}
+
+#content {
+    width: 100%;
+    height: 2100px;
+    /*min-width: 900px;
+     max-width: 1200px; */
+}
+
+.header {
+    width: 100%;
+    min-width: 1000px;
+    height: 73px;
+    background: rgba(7, 7, 7, 0.7);
+    border-bottom: 2px solid #fff;
+    position: fixed;
+    z-index: 9999;
+}
+
+.header img {
+    width: 70px;
+    float: left;
+    padding: 5px 30px;
+}
+
+.header h1 {
+    color: #fff;
+    font-weight: 300;
+    font-family: 'Montserrat', 'Jost', sans-serif;
+    font-size: 50px;
+    padding: 7px 40px;
+}
+
+.header h1 span {
+    color: rgb(191, 226, 247);
+    font-size: 25px;
+    padding-left: 30px;
+
+}
+
+.header a {
+    color: rgb(233, 233, 233);
+    text-decoration: none;
+}
+
+.header a:hover {
+    color: rgb(130, 203, 245);
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    text-transform: uppercase;
+    border-bottom: 2px solid #fff;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.subnav {
+    float: left;
+    overflow: hidden;
+    text-transform: uppercase;
+}
+
+.subnav .subnavbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.navbar a:hover,
+.subnav:hover .subnavbtn {
+    background-color: rgb(130, 203, 245);
+    color: #000;
+    font-weight: 600;
+}
+
+.subnav-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: rgb(130, 203, 245, 0.9);
+    width: 100%;
+    z-index: 999;
+    padding-left: 1%;
+}
+
+.subnav-content a {
+    float: left;
+    color: white;
+    text-decoration: none;
+}
+
+.subnav-content a:hover {
+    background-color: #eee;
+    color: black;
+}
+
+.subnav:hover .subnav-content {
+    display: block;
+}
+
+.wrapper {
+    width: 100%;
+    margin-top: 120px;
+}
+
+.sidebar-middle {
+    width: 67%;
+    height: 2100px;
+    background: #fff;
+    float: left;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.sidebar-left {
+    width: 20%;
+    height: 2100px;
+    background: #fff;
+    float: left;
+
+}
+
+.sidebar-left h1 {
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px;
+    margin-top: 5px;
+    background-color: rgb(130, 203, 245);
+    border-bottom: 3px solid #fff;
+}
+
+.big-box {
+    width: 100%;
+    background-color: #fff;
+}
+
+.big-box h1 {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(130, 203, 245);
+    border-top: 2px solid #777;
+    border-bottom: 2px solid #777;
+}
+
+.big-box p {
+    padding: 10px 15px 10px;
+}
+
+.big-box img {
+    float: left;
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+}
+
+.big-box a {
+    text-decoration: none;
+    color: cornflowerblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.big-box a:hover {
+    color: rgb(6, 126, 182);
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.mini-box {
+    padding: 5px;
+    background-color: #fff;
+}
+
+.mini-box h3 {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Jost', sans-serif;
+    color: rgb(6, 126, 182);
+    padding: 10px 15px;
+    margin-top: -7px;
+    line-height: 17px;
+    border-bottom: 1px solid #333;
+}
+
+.mini-box p {
+    font-size: 14px;
+    padding: 10px;
+}
+
+.mini-box a {
+    text-decoration: none;
+    color: #333;
+}
+
+.mini-box a:hover {
+    color: rgb(7, 105, 185);
+}
+
+.mini-box img {
+    width: 50px;
+    text-align: center;
+    padding: 5px;
+    padding-right: 10px;
+    float: left;
+}
+
+.clear {
+    height: 150px;
+}
+
+.sidebar-right {
+    width: 12%;
+    max-width: 180px;
+    height: 2100px;
+    background-color: rgb(130, 203, 245);
+    float: left;
+}
+
+.slide {
+    margin: 10px 0;
+    padding: 0;
+}
+
+.boxed {
+    width: 800px;
+    height: auto;
+    z-index: inherit;
+    position: fixed;
+    padding-left: 1%;
+}
+
+.box {
+    position: relative;
+    width: 14%;
+    background: #fff;
+}
+
+.box a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.box img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.box .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #777;
+    z-index: 1;
+}
+
+.box:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    height: 80px;
+    background-color: rgba(7, 7, 7, 0.7);
+    border: 1px solid #333;
+    clear: both;
+}
+
+footer p {
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    /* position: relative; */
+    padding-top: 5px;
+}
+
+footer img {
+    margin: 10px;
+    width: 30px;
+    float: right;
+    padding-right: 15px;
+    padding-top: 10px;
+}
+footer a:hover{
+    opacity: 0.7;
+}

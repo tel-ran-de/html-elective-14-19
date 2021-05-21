@@ -1,0 +1,14 @@
+table{
+    border: 2px solid black;
+}
+
+.second td{
+    vertical-align:bottom;
+}
+td{
+    /*border: 1px solid black;*/
+    height: 50px;
+    vertical-align: top;
+
+}
+

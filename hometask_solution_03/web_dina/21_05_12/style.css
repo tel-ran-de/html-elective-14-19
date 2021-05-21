@@ -1,0 +1,84 @@
+*{
+    margin: 0 auto;
+    font-family: 'Roboto Slab', serif;
+}
+.tbl{
+    margin: 50px 10px;
+    width: 100%;
+}
+h2{
+    color: #036189;
+    font-size: 18px;
+    text-align: center;
+}
+h3{
+    color: #068ec9;
+    font-size: 16px;
+    text-align: center;
+}
+
+table{
+    margin: 0 auto;
+    border: 2px solid #036189;
+    border-collapse: collapse;
+    width: 630px;
+    height: 100px;
+}
+ td{
+    padding: 15px 5px;
+    border: 1px solid #036189;
+    text-align: left;
+}
+ th{
+     text-align: center;
+     font-weight: normal;
+ }
+.haupt td{
+    text-align: center;
+    font-weight: bold;
+    color: cadetblue;
+}
+span{
+    text-align: center;
+}
+.n{
+    margin: 15px 25px;
+    text-align: center;
+}
+p{
+    font-weight: 600;
+    margin-left: 5%;
+}
+a{
+    text-decoration: none;
+    color: cadetblue;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+h2{
+    color: cadetblue;
+    text-align: center;
+}
+.video {
+ margin: 20px 10%;
+ text-align: center;
+}
+ol.first{
+    list-style-type: upper-roman;
+    /*list-style-position: outside;*/
+}
+ol.second{
+    list-style-type: upper-alpha;
+}
+
+ul{
+    list-style: circle;
+}
+ b{
+    color: #036189;
+}
+.task14{
+    margin: 15px 20%;
+    padding: 20px 10px;
+}
