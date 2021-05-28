@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: white;
+    margin: 0 auto;
+
+}
+
+.text {
+    display: inline-block;
+    width: 50%;
+    padding: 130px;
+    text-align: center;
+    vertical-align: middle;
+    horiz-align: center;
+}
+
+.image-overlay {
+    background-image: url("https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/060307c9979a596fa8c3a36d/pexelsphoto2208836.jpeg");
+    display: inline-block;
+    background-size: cover;
+    padding: 350px;
+    vertical-align: middle;
+    width: 49%;
+    /*если ставлю 50%, то картинка сразу не весь экран, как ее растянуть именно по всему блоку?*/
+    margin: 0 auto;
+
+
+}
+
+.text h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.text h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    color: #f1c50e;
+    line-height: 1.1;
+    font-weight: 700;
+}
+
+.text p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 20px 0 0;
+    padding: 0;
+    text-align: center;
+    color: #111111;
+}
+
+.text a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #f1c50e;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 60px auto 0;
+    vertical-align: middle;
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+    display: table;
+    font-weight: 400;
+}
+
+.back-link {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    padding: 16px;
+    line-height: 25.6px;
+    background-color: #333333;
+    height: 97px;
+    text-align: center;
+
+}
+
+.back-link a {
+    color: #adcce9;
+    text-decoration-line: underline;
+}
+
+.link-text {
+    color: white;
+    display: inline-block;
+}
+
+.link-text2 {
+    color: white;
+    display: inline-block;
+}

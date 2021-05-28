@@ -1,0 +1,12 @@
+.block-01{
+    width: 90%;
+    background-image: url("lemon.jpeg");
+    background-position: right top;
+    background-size: 50%;
+    height: 95vh;
+    background-repeat: no-repeat;
+    /*background-color: lightgray;*/
+}
+.text-content{
+    width: 50%;
+}

@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+.header {
+    background-image: url("//images03.nicepage.com/c461c07a441a5d220e8feb1a/cc54848d24ec5cb1be8c9d83/874-min.jpg");
+    background-position: top right;
+    background-size: cover;
+    padding: 100px;
+
+}
+.wrapper{
+    width: 70%;
+    margin: 0 auto;
+}
+.mini-title{
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    font-weight: 200;
+    color:#111;
+    letter-spacing: 8px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.color-title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 150px;
+    color:#179bd6;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.description{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400 ;
+    color:#111;
+    font-style: italic;
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 30px;
+    width: 70%;
+}
+.description a{
+    font-style: normal;
+    color:#179bd6;
+    text-decoration: none;
+}
+.header-link{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #179bd6;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}

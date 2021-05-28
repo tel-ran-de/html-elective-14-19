@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+.header{
+    background-color: #fda700;
+    color: #ffffff
+}
+.u-container-layout  {
+
+    background-position:50% 50%;
+    background-size:  cover;
+    display: block;
+    vertical-align: middle;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.color-title{
+font-family: 'Roboto Slab', serif;
+    font-size: 55px;
+    color: #fda700;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}

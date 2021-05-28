@@ -1,0 +1,38 @@
+body {
+    background-color: beige;
+    padding: 25px;
+}
+
+.header {
+    border: solid black 3px;
+    background-color: white;
+}
+
+section {
+    background-color: pink;
+    width: 70%;
+}
+
+aside {
+    box-sizing: border-box;
+    background-color: yellow;
+    width: 20%;
+    border: 3px dotted black;
+    margin: 5px;
+    /*   css calc()
+           outline vs border
+    */
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clear{
+    clear: both;
+}
+

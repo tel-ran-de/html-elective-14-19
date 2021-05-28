@@ -1,0 +1,80 @@
+.wrapper {
+    background-color: #fda700;
+    height: 768px;
+    display: flex;
+}
+.ice-cream {
+    position: relative;
+    left: 20%;
+    top: 10%;
+    padding-top: 70px;
+}
+.ice-cream img {
+    width: 562px;
+    height: 534px;
+
+}
+.cafe {
+    max-width: 50%;
+    background-color: #fff;
+    width: 22%;
+    height: 290px;
+    padding: 30px 40px;
+    position: absolute;
+    left: 48%;
+    top: 12%;
+}
+.title {
+    font-size: 48px;
+    font-weight: 700;
+    color: #fda700;
+    font-family: 'Roboto Slab', serif;
+}
+.text {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 23px;
+
+}
+.txt {
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.menu {
+    background-color: rgb(228, 150, 0);
+    width: 112px;
+    height: 29px;
+    padding: 10px 30px;
+    text-align: center;
+}
+.menu a {
+    text-decoration: none;
+    color: #e6e6e6 ;
+    text-transform: uppercase;
+    position: relative;
+    top: 5px;
+
+
+}
+footer {
+    background-color: #333;
+}
+.text2 {
+    color: #fff;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.6;
+    padding-top:49px;
+    padding-bottom:70px;
+}
+.template {
+    color: #fff;
+    text-align: center;
+    font-size: 0.8rem;
+    padding-bottom:49px;
+
+}
+.template a {
+    color: #b3cef3;
+    font-family: 'Open Sans', sans-serif;
+
+}

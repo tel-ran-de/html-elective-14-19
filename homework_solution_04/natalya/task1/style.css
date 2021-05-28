@@ -1,0 +1,117 @@
+.main {
+    background-image: url("16951-min.jpg");
+    background-color: #f2f5f4;
+    background-size: 35%;
+    background-position: top left;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+}
+.wrapper {
+    padding-left: 40%;
+    padding-top: 7%;
+}
+
+.title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.2;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: 'PT Sans', sans-serif;
+}
+.sub-title {
+    text-transform: uppercase;
+    letter-spacing: normal;
+    font-weight: 700;
+    line-height: 1.1;
+    color: #3870bb;
+    font-size: 4.5rem;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.description, .img_author {
+    font-size: 1.125rem;
+    margin: 20px auto 0 0;
+    word-wrap: break-word;
+    font-family: 'Open Sans', sans-serif;
+}
+.img_author {
+    margin: 18px auto 0 0;
+}
+.img_author a {
+    color: #111;
+}
+.header-link {
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #111;
+    letter-spacing: 3px;
+    font-weight: 700;
+    font-size: 1rem;
+    margin-top: 45px;
+    padding: 10px 0;
+    font-family: 'Oswald', sans-serif;
+    width: 215px;
+    text-align: center;
+
+}
+footer {
+    background-color: #333;
+}
+.text {
+    color: #fff;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.6;
+    padding-top:49px;
+    padding-bottom:70px;
+}
+.template {
+    color: #fff;
+    text-align: center;
+    font-size: 0.8rem;
+    padding-bottom:49px;
+
+}
+.template a {
+    color: #b3cef3;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+}
+.header img {
+    margin-left: 5%;
+    width: 65px;
+    height: 35px;
+    position: relative;
+    top: 20%;
+}
+.menu ul li {
+    list-style: none;
+    display: inline;
+    vertical-align: middle;
+    font-size: 16px;
+    padding: 0 20px;
+
+}
+.menu ul {
+    position: relative;
+    top: 15%;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: #111;
+}
+.menu ul li a:hover {
+    color: red;
+}
+.top {
+    background-color: #f2f2f2;
+    height: 80px;
+}
+.header-link a {
+    text-decoration: none;
+}

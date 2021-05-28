@@ -1,0 +1,23 @@
+html {
+    font-size: 62.5%;
+}
+body{
+    /*width: 50%; vw vs %*/
+}
+section{
+    width: 90%;
+    background-color: #F3F5F4;
+    background-image: url("16951-min.jpg");
+    background-position: left top;
+    background-size: 40%;
+    background-repeat: no-repeat;
+
+}
+aside{
+    width: 60%;
+    padding-left: 40%;
+}
+h1 .header-line {
+    display: block;
+    font-size: 7rem;
+}

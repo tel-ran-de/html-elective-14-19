@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+
+.header{
+    background-image: url("//images03.nicepage.com/c461c07a441a5d220e8feb1a/e5e1daf96a4558d495356b37/2777964d-min.jpg");
+    background-position:  right;
+    background-size: cover;
+    padding: 100px;
+}
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+}
+.color-title{
+    font-family: Oswald, sans-serif;
+    font-size: 96px;
+    font-weight: 700;
+    color: #db545a;
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
+.description{
+    font-family: 'Open Sans',sans-serif;
+    color: #111111;
+    margin: 30px 789px 0 0;
+    width: 150%;
+    padding-bottom: 100px;
+}
+.description a {
+    font-style: normal;
+    color: #111111;
+    text-decoration: none;
+}
+.h{
+    background-color: #db545a;
+    height: 8px;
+    transform-origin: left center;
+    margin: 30px auto 0 0;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 100px;
+    width: 250px;
+}
+
+.header-link{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #db545a;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 25px;
+    text-transform: uppercase;
+
+}

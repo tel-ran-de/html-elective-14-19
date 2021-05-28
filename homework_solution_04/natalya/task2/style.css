@@ -1,0 +1,75 @@
+.wrapper {
+    display: flex;
+}
+.section1 {
+    width: 50%;
+    margin-top: 8%;
+}
+.section2  {
+    width: 50%;
+    height: 600px;
+    background-image: url("pexelsphoto2208836.jpeg");
+    background-position: 50% 50%;
+}
+.lemon {
+    color: #111111;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-align: center;
+    font-size: 1.25rem;
+    font-family: 'Roboto', sans-serif;
+}
+.title {
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 1.1;
+    color: #f1c50e;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.text {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    position: relative;
+    font-size: 14px;
+    margin: 0 auto;
+    width: 65%;
+    padding: 20px 0 30px 0;
+
+
+}
+.readmore {
+    background-color: rgb(217, 177, 13);
+    width: 112px;
+    height: 29px;
+    padding: 10px 30px;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+
+
+}
+.readmore a {
+    color: #fff;
+    text-decoration: none;
+}
+.template {
+    color: #fff;
+    text-align: center;
+    font-size: 0.8rem;
+    padding-bottom:49px;
+    padding-top: 25px;
+    text-transform: uppercase;
+
+}
+.template a {
+    color: #b3cef3;
+    font-family: 'Open Sans', sans-serif;
+
+}
+footer {
+    background-color: #333;
+    height: 75px;
+}

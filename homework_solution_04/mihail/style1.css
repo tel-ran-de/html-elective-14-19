@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: #f2f4f3;
+}
+
+.image-overlay{
+    background-image: url(//images03.nicepage.com/c461c07a441a5d220e8feb1a/cdf7444d030e541f8dbca0fc/16951-min.jpg);
+    display: inline-block;
+    background-size: cover;
+    padding: 350px;
+    vertical-align: middle;
+
+
+}
+
+.headline{
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 100px;
+    padding-left: 50px;
+}
+
+.headline h5{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    margin: 5px 5px;
+    color:#111111;
+    font-weight: 700;
+    letter-spacing: 5px;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.headline h1{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 72px;
+    font-weight: 700;
+    color: #3870bb  ;
+    line-height: 79.2px;
+    letter-spacing: normal;
+    text-align: left;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.headline-description{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 28.8px;
+    text-align: left;
+    margin: 20px auto 8px 0;
+    font-weight:400;
+    padding-right: 150px;
+    padding-top: 20px;
+}
+
+.headline-description p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 25.6px;
+    text-align: left;
+    margin: 8px auto 40px auto ;
+}
+
+.headline-description-link{
+    color: #111111;
+}
+
+.read-link{
+    font-family: 'Oswald', sans-serif;
+    color: #ffffff;
+    background-color: #111111;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 700;
+    margin: 40px auto 20px auto;
+    padding: 10px 52px 10px 51px;
+    text-decoration: none;
+}
+

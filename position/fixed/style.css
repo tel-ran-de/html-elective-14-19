@@ -1,0 +1,19 @@
+body {
+    width: 90vw;
+    margin: 0 auto;
+}
+
+main {
+    border: ridge 15px green;
+    padding: 15px;
+    margin-top: 50px;
+}
+
+.ads {
+    border: double red 10px;
+    height: 100px;
+    position: fixed;
+    bottom: 100px;
+    left: 100px;
+    background: #adcce9;
+}
