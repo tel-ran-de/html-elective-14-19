@@ -32,7 +32,6 @@ body{
 .parent{
     width: 560px;
     height: 315px;
-    position: relative;
     margin-top: 0;
 }
 
@@ -53,12 +52,9 @@ body{
     margin-top: 10px;
 }
 
-.child{
-    width: 942px;
+.child img{
+    width:940px;
     height: 590px;
-    background-image: url("./img/01.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
     position: absolute;
     top: 45px;
     left:245px;
@@ -71,7 +67,6 @@ body{
     font-weight: 400;
     width: 330px ;
     line-height: 26px;
-    /*position: relative;*/
     text-align: left;
     padding-left: 550px;
     padding-top: 370px;
