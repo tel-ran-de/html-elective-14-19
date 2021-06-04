@@ -1,0 +1,49 @@
+* {
+    /*box-sizing: border-box;*/
+}
+
+.wrapper {
+    width: 85vw;
+    border: 10px dotted black;
+    margin: 0 auto;
+    /*height: 90vh;*/
+    padding: 25px;
+}
+
+article {
+    width: 80%;
+}
+
+aside {
+    width: 20%;
+}
+
+header, footer {
+    border: 1px dotted black;
+    height: 10vh;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+img{
+    margin: 15px;
+    border: 5px solid green;
+    padding: 25px;
+    background-color: #c19434;
+}
+
+.pink{
+    background-color: #a248d6;
+}

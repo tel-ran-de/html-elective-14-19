@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+
+h1::after, h1::before {
+    content: "'";
+}
+
+:root {
+    --main-bg-color: brown;
+    --header-bg-color: #EB7971;
+    --primary-bg-color: #33b5e5;
+    --secondary-bg-color: #0099cc;
+}
+
+.wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: var(--main-bg-color);
+    color: white;
+    padding: 15px;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: var(--primary-bg-color);
+    color: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    /*box-shadow: 4px -4px 15px 0px #FF1F1F, 12px -11px 7px 0px #FF9376, 20px -5px 7px 0px #FFE264, 20px 6px 7px 0px #F6FF33, 13px 12px 17px 0px #FF9527, 2px 17px 17px 0px #FF0000, -9px 21px 18px 0px #FFF212, -9px 6px 11px 0px #FF0808, -11px -9px 11px 0px #FFFA17, -11px -9px 11px 0px #FFFA17, 5px 5px 15px 5px rgba(0,0,0,0);*/
+}
+
+.menu li:hover {
+    background-color: var(--secondary-bg-color);
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.faq {
+    background-color: var(--primary-bg-color);
+    padding: 15px;
+    color: #ffffff; /*единственно возможный*/
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+footer {
+    background-color: var(--secondary-bg-color);
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+/*Медиа запросы*/
+
+@media only screen and (max-width: 768px)/* and (orientation: landscape)*/ {
+    /*    Для мобильных телефонов до 768*/
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+@media print {
+    @page {
+        margin: 20mm;
+    }
+
+    header, footer, aside {
+        display: none;
+    }
+
+    .col-6 {
+        width: 100%;
+    }
+
+    main {
+        font-family: Georgia, serif;
+        font-size: 3.6rem !important;
+    }
+    img{
+        width: 50px !important;
+        /*display: none;*/
+    }
+}

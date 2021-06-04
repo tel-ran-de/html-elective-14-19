@@ -1,0 +1,145 @@
+.green {
+    height: 376px;
+    width: 75%;
+    background-color: #34421e;
+    color: #fff;
+    position: relative;
+
+}
+.kaunas {
+    width: 500px;
+    height: 350px;
+    position: absolute;
+    left: 10px;
+    top: 1010px;
+}
+.agencytxt {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 50px;
+    padding-top: 80px;
+    padding-left: 237px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+
+}
+.agencytxt p {
+    margin: 0;
+}
+.location {
+    width: 190px;
+    font-size: 11px;
+    color: #fff;
+    font-weight: 600;
+    line-height: 1.6;
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    top: 64%;
+    left: 70%;
+}
+.bottom {
+    position: absolute;
+}
+.bottom_images {
+    background-color: #c19434;
+    width: 380px;
+    height: 119px;
+    position: relative;
+    left: 195px;
+    bottom: 28px;
+}
+.images_main {
+    width: 450px;
+    position: relative;
+    bottom: 133px;
+    left: 158px;
+}
+.images_main img {
+    width: 130px;
+    height: 90px;
+    padding-right: 2px;
+}
+
+.second {
+    position: relative;
+    top: 110px;
+}
+.dream_house_title {
+    font-size: 80px;
+    color: #d9d9d9;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+
+}
+.green2 {
+    background-color: #34421e;
+    height: 200px;
+    width: 58%;
+}
+.yellow {
+    background-color: #c19434;
+    height: 230px;
+    width: 60%;
+    position: absolute;
+    bottom: 130px;
+    left: 45%;
+}
+.image img {
+    width: 55%;
+    height: 260px;
+}
+.image {
+    position: absolute;
+    top: 130px;
+    left: 40%;
+}
+.text {
+    width: 230px;
+    height: 265px;
+    font-family: 'Open Sans', sans-serif;
+    border: 1px solid grey;
+    background-color: #fff;
+    margin: auto;
+    position: relative;
+    top: 15px;
+    padding: 0 30px;
+    font-style: italic;
+
+
+}
+.empty_white_block {
+    width: 320px;
+    height: 285px;
+    background-color: #fff;
+    position: relative;
+    left: 56%;
+    box-shadow: 1px 2px 3px 1px #ccc;;
+}
+.title {
+    color: #c19434;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    font-style: normal;
+}
+.main_text {
+    font-size: 12px;
+    text-align: center;
+}
+.readMore {
+    color: black;
+    text-decoration: none;
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+
+
+}
+.more {
+    text-align: center;
+    padding-top: 10px;
+}
+/*.dream_house {*/
+/*    margin-top: 120px;*/
+/*}*/

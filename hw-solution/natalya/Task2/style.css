@@ -1,0 +1,49 @@
+
+img {
+    width: 200px;
+    height: 140px;
+    border-radius: 20px;
+    border: 2px dotted #af8080 !important;
+    padding: 5px;
+}
+img:hover {
+    filter: grayscale(1);
+}
+
+.container {
+    background-color: #e5c2c2;
+    height: 600px;
+
+}
+.subtitle {
+    font-size: 22px;
+    text-align: center;
+    font-weight: 700;
+    padding-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+.title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 26px;
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+.first_img, .third_img {
+    float: right;
+    margin: 0 30px;
+}
+.second_img {
+    float: left;
+    margin: 0 30px;
+}
+
+.second {
+    padding: 20px 0;
+}
+.second_text {
+    padding-right: 30px;
+}
+.first_text, .third_text {
+    padding-left: 30px;
+}
