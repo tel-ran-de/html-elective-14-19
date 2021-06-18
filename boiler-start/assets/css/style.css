@@ -1,0 +1,17 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    color: gold;
+    /*https://mybrandnewlogo.com/ru/generator-cvetovoi-palitry*/
+    background: linear-gradient(110deg, deeppink, blueviolet);
+    height: 70vh;
+    font-size: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
