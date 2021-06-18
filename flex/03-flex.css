@@ -1,0 +1,13 @@
+nav {
+    display: flex;
+    /*justify-content: flex-end;*/
+}
+
+/*.contact{*/
+.search {
+
+    margin-left: auto;
+}
+.home{
+    margin-right: auto;
+}

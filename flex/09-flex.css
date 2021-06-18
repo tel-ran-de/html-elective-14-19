@@ -1,0 +1,13 @@
+nav {
+    display: flex;
+}
+
+.shop {
+    order: 1;
+}
+.contact{
+    order: 2;
+}
+.search{
+    order: -1;
+}

@@ -1,0 +1,19 @@
+nav{
+    display: flex;
+    /*flex-direction: column;*/
+}
+
+/*flex-grow*/
+/*flex-shrink*/
+/*flex-basis*/
+div{
+    /*flex: 1;*/
+    /*width: 33.3333%;*/
+    /*gap: 10px;*/
+    flex-shrink: 1;
+}
+
+.search{
+    /*flex: 2;*/
+    flex-grow: 1;
+}

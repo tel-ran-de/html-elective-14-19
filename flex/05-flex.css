@@ -1,0 +1,14 @@
+nav.menu {
+    display: flex;
+    height: 70vh;
+    /*align-items: flex-end;*/
+    /*align-items: stretch; по умолчанию*/
+    /*align-items: center;*/
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.contact{
+    align-self: flex-end;
+    justify-self: flex-end;
+}

@@ -1,0 +1,19 @@
+nav {
+    display: flex;
+}
+
+/*flex-grow*/
+/*flex-shrink*/
+/*flex-basis*/
+.home {
+    /*flex-basis: 0;*/
+    /*flex-grow: 1;*/
+    /*flex-shrink: 1;*/
+    /*flex-shrink: 10;*/
+}
+/* Три значения: flex-grow | flex-shrink | flex-basis */
+/*flex: 2 2 10%;*/
+div {
+    /*flex: 1 1 0;*/
+    flex: 1;
+}

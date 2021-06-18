@@ -1,0 +1,10 @@
+nav {
+    display: flex;
+    flex-direction: column;
+    /*justify-content: flex-end;*/
+    justify-content: center;
+    height: 80vh;
+    /*align-items: flex-end;*/
+    /*align-items: center;*/
+    /*align-items: flex-start;*/
+}

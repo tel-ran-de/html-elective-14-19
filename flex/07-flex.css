@@ -1,0 +1,10 @@
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+div{
+    /*margin: 10px;*/
+    width: 200px;
+}
