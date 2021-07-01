@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+}
+:root{
+    --color-1: #4672c4;
+    --color-6: #bf9005;
+    --color-16: #a5a5a5;
+    --color-2-5: #f7ccac;
+    --color-3: #cb463e;
+    --color-4: #e1f0d9;
+    --color-7-8: #7ffffe;
+    --color-9-10-11-12: #fee598;
+    --color-13-14-15: #a9d08d;
+
+}
+
+.wrapper{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    grid-template-rows: repeat(8,50px) 80px 120px 50px;
+    grid-gap: 2rem;
+}
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #70309f;
+}
+.block1{
+    background-color: var(--color-1);
+    /*grid-column: 1/5;*/
+    grid-area: 1/ 1/ 2/ 5;
+
+
+}
+
+.block2{
+    background-color: var(--color-2-5);
+    /*grid-column: 1;*/
+    grid-area: 2/1/7/2;
+
+
+}
+.block3{
+    background-color: var(--color-3);
+    /*text-align: center;*/
+    /*grid-column: 2/4;*/
+    grid-area: 2/2/3/4;
+
+}
+.block4{
+    background-color: var(--color-4);
+    /*grid-column: 2/4;*/
+    grid-area: 3/2/7/4;
+}
+.block5{
+    background-color: var(--color-2-5);
+    grid-area: 2/4/7/5;
+}
+.block6{
+    background-color: var(--color-6);
+    grid-area: 7/1/8/5;
+}
+.block7{
+    background-color: var(--color-7-8);
+    grid-area: 8/1/9/3;
+}
+.block8{
+    background-color: var(--color-7-8);
+    grid-area: 8/3/9/5;
+}
+.block9101112{
+    grid-area: 9/1/10/5;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-column-gap: 2rem;
+}
+.block9{
+    background-color: var(--color-9-10-11-12);
+    /*grid-area: 9/1/10/2;*/
+}
+.block10{
+    background-color: var(--color-9-10-11-12);
+    /*grid-area: 9/2/10/3;*/
+    /*padding: 20px;*/
+}
+.block11{
+    background-color: var(--color-9-10-11-12);
+    /*grid-area: 9/3/10/4;*/
+    /*padding: 20px;*/
+}
+.block12{
+    background-color: var(--color-9-10-11-12);
+    /*grid-area: 9/4/10/5;*/
+    /*padding: 20px;*/
+}
+.block131415{
+    grid-area: 10/1/11/5;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 2rem;
+
+}
+.block13{
+    background-color: var(--color-13-14-15);
+    /*grid-area: 10/1/11/2;*/
+}
+.block14{
+    background-color: var(--color-13-14-15);
+
+}
+.block15{
+    background-color: var(--color-13-14-15);
+}
+.block16{
+    background-color: var(--color-16);
+    grid-area: 11/1/12/5 ;
+}
+/*@media screen and (max-width: 770px) {*/
+/*    .wrapper{*/
+/*        width: 100%;*/
+/*        background-color: #7ffffe;*/
+/*    }*/
+
+/*}*/
