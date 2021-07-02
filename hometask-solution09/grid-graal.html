@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta content="true" name="HandheldFriendly"/>
+	<meta content="width" name="MobileOptimized"/>
+	<meta content="yes" name="apple-mobile-web-app-capable"/>
+	
+	<style>
+		body {
+			display: grid;
+			/*height: 100vh;*/
+			grid-template-columns: 1fr 6fr 1fr;
+			grid-gap: 1rem;
+			grid-template-rows: 7vh 7vh 50vh 7vh;
+			grid-template-areas:
+			"💻 💻 💻"
+			"❤️  ❤️  ❤️ "
+			"aside-left main-content aside-right"
+			"💩 💩 💩";
+		}
+		
+		nav{
+			grid-area: ❤️ ;
+		}
+		header {
+			grid-area: 💻;
+		}
+		
+		* {
+			border: 2px dotted red;
+			box-sizing: border-box;
+		}
+		
+		aside.left {
+			grid-area: aside-left;
+		}
+		
+		aside.right {
+			grid-area: aside-right;
+		}
+		
+		article {
+			grid-area: main-content;
+		}
+		
+		footer {
+			grid-area: 💩;
+		}
+	</style>
+	<title>Title</title>
+</head>
+<body>
+	
+	<header class="header">header</header>
+	<nav class="menu">навигация</nav>
+	<article class="content">content</article>
+	<aside class="right menu">aside right</aside>
+	<footer class="footer">footer</footer>
+	<aside class="left ads">aside left</aside>
+
+
+</body>
+</html>
